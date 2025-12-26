@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Disbursement Status</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 380px;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .company {
+            color: #0a58ca;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .amount {
+            font-size: 32px;
+            color: #1a73e8;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .details {
+            text-align: left;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .details p {
+            margin: 6px 0;
+        }
+
+        .status {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .pending {
+            color: #f39c12;
+        }
+
+        .circle {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 4px solid #f39c12;
+            margin-right: 8px;
+        }
+
+        .note {
+            font-size: 13px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+
+    <h1 class="company">Loan X</h1>
+
+    <h2 class="title">Loan Disbursement Status</h2>
+
+    <div class="amount">Rs. 40,000.00</div>
+
+    <div class="details">
+        <p><strong>Customer Name :</strong> Dhananjaya Sandakelum</p>
+        <p><strong>Account No :</strong> 1234567890</p>
+        <p><strong>Bank :</strong> Sampath Bank</p>
+    </div>
+
+    <div class="status pending">
+        <span class="circle"></span>
+        PENDING
+    </div>
+
+    <p class="note">
+        ඔබගේ මුදල් බැංකු ගිණුමට යැවීමේ පවතී
+    </p>
+
+</div>
+
+</body>
+</html>
